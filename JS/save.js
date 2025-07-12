@@ -38,11 +38,11 @@ function downloadVCard() {
   const vCardData = `
 BEGIN:VCARD
 VERSION:3.0
-FN:ADNAN ALBAKKOUR
+FN:Zein Alia
 TITLE:Sales Manager
-ORG:RISE Properties
-TEL;TYPE=WORK,VOICE:+971586410997
-EMAIL:adnano@dpdxb.com
+ORG:Diplomat Properties
+TEL;TYPE=WORK,VOICE:+971559903427
+EMAIL:Zeinalia124@gmail.com
 URL:http://www.dpdxb.com
 ADR;TYPE=WORK:;;PO Box No 181702, Office NO.807, Opal Tower, Business Bay;Dubai;;UAE
 END:VCARD
@@ -53,7 +53,7 @@ END:VCARD
 
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'ADNAN ALBAKKOUR.vcf';
+  a.download = 'AZein Alia.vcf';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
